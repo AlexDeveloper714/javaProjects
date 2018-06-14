@@ -56,8 +56,9 @@ public class ProcesosR {
         }
         return tabla;
     }
-//Falta el backtracking y la recursividad (Aunque da una solución aprox en algunos)
-//Use break apenas llegase al tope porque no tengo algo que modifique bien el arreglo...
+	
+//Backtracking pendiente (revisar codigos)
+//Modificar segun sea necesario
 
     public String[][] resolverReina(String[][] tabla, int fila, int columna) {
         int contador = 1, i = 0, j = 0;
